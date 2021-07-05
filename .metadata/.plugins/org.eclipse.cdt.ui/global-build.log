@@ -1,0 +1,30 @@
+20:40:39 **** Incremental Build of configuration Debug for project dayTwoCppProjects ****
+make all 
+Building file: ../multiplyBy2.cpp
+Invoking: GCC C++ Compiler
+g++ -std=c++2a -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"multiplyBy2.d" -MT"multiplyBy2.o" -o "multiplyBy2.o" "../multiplyBy2.cpp"
+Finished building: ../multiplyBy2.cpp
+ 
+Building target: dayTwoCppProjects
+Invoking: MacOS X C++ Linker
+g++  -o "dayTwoCppProjects"  ./multiplyBy2.o   
+Finished building target: dayTwoCppProjects
+ 
+20:40:44 **** Incremental Build of configuration Debug for project dayTwoCppProjects ****
+make all 
+make: Nothing to be done for `all'.
+20:41:13 **** Incremental Build of configuration Debug for project dayTwoCppProjects ****
+make all 
+Building file: ../multiplyBy2.cpp
+Invoking: GCC C++ Compiler
+g++ -std=c++2a -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"multiplyBy2.d" -MT"multiplyBy2.o" -o "multiplyBy2.o" "../multiplyBy2.cpp"
+Finished building: ../multiplyBy2.cpp
+ 
+Building target: dayTwoCppProjects
+Invoking: MacOS X C++ Linker
+g++  -o "dayTwoCppProjects"  ./multiplyBy2.o   
+Finished building target: dayTwoCppProjects
+ 
+20:43:32 **** Incremental Build of configuration Debug for project dayTwoCppProjects ****
+make all 
+make: Nothing to be done for `all'.

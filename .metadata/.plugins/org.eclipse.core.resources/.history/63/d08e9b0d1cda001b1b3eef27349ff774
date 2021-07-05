@@ -1,0 +1,17 @@
+/*
+ * multiplyBy2.cpp
+ *
+ *  Created on: Jun 30, 2021
+ *      Author: isaactait
+ */
+
+#import <iostream>
+
+int main() {
+	std::cout << "Enter an integer: ";
+
+	int x{ };
+	std::cin >> x ;
+
+	return 0;
+}

@@ -1,0 +1,1 @@
+mySecondCppProgram.o: ../mySecondCppProgram.cpp
