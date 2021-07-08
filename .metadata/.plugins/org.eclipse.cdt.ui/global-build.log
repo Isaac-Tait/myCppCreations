@@ -1,15 +1,15 @@
-22:08:19 **** Incremental Build of configuration Debug for project dayThreeCppProject ****
+15:47:30 **** Incremental Build of configuration Debug for project chapterTwoQuiz ****
 make all 
-Building file: ../quizzWork.cpp
+Building file: ../main.cpp
 Invoking: GCC C++ Compiler
-g++ -std=c++2a -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"quizzWork.d" -MT"quizzWork.o" -o "quizzWork.o" "../quizzWork.cpp"
-Finished building: ../quizzWork.cpp
+g++ -std=c++2a -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"main.d" -MT"main.o" -o "main.o" "../main.cpp"
+Finished building: ../main.cpp
  
-Building target: dayThreeCppProject
+Building target: chapterTwoQuiz
 Invoking: MacOS X C++ Linker
-g++  -o "dayThreeCppProject"  ./functions.o ./quizzWork.o   
-Finished building target: dayThreeCppProject
+g++  -o "chapterTwoQuiz"  ./main.o   
+Finished building target: chapterTwoQuiz
  
-22:08:22 **** Incremental Build of configuration Debug for project dayThreeCppProject ****
+15:47:46 **** Incremental Build of configuration Debug for project chapterTwoQuiz ****
 make all 
 make: Nothing to be done for `all'.
