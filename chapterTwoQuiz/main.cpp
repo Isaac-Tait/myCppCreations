@@ -17,19 +17,7 @@ You will need to call readNumber() twice.
 
 #include <iostream>
 
-int readNumber()
-{
-	std::cout << "Please enter a number of your choice " << '\n';
-	int x {};
-	std::cin >> x;
-
-	return x;
-}
-
-void writeAnswer(int x)
-{
-	std::cout << "The answer is " << x << '\n';
-}
+#include "io.h"
 
 int main()
 {
